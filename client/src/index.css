@@ -1,0 +1,192 @@
+/* Add this style rule to set the default background color for all pages */
+body {
+  background-color: #2980b9;
+  margin: 0;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Global Styles */
+* {
+  font-family: 'Montserrat', sans-serif !important;
+  box-sizing: border-box;
+}
+
+/* Form Styles */
+input, .ant-picker-input input {
+  border-radius: 2px !important;
+  border: 1px solid #888 !important;
+  height: 40px !important;
+  width: 100%; /* Make inputs full width */
+}
+
+input:focus, .ant-picker {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid #555 !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: #333 !important;
+}
+
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+
+.ant-picker {
+  border-radius: 2px !important;
+  border: 1px solid #888 !important;
+  height: 40px !important;
+  width: 100%; /* Make date pickers full width */
+}
+
+/* Spinner Styles */
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.spinner-border {
+  width: 5rem;
+  height: 5rem;
+  color: white !important;
+}
+
+/* Title Styles */
+.page-title {
+  font-size: 25px;
+  color: #fff; /* Change text color to white */
+  font-weight: bold;
+}
+
+/* Card Styles */
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #444;
+}
+
+.card {
+  box-shadow: 0 0 2px #bbb;
+  border-radius: 0 !important;
+}
+
+/* Button Styles */
+.primary-button, .full-width-button {
+  height: 40px !important;
+  width: 100% !important;
+  font-size: 16px !important;
+}
+
+.primary-button {
+  background-color: #269ff0 !important;
+  border-color: #269ff0 !important;
+  color: white !important;
+}
+
+.full-width-button {
+  background-color: #269ff0 !important;
+  border-color: #269ff0 !important;
+  color: white !important;
+}
+
+/* Text Styles */
+p {
+  color: #666 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.anchor {
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px !important;
+}
+
+.anchor:hover {
+  text-decoration: underline !important;
+}
+
+/* Cursor Styles */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Authentication Styles */
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003455;
+}
+
+.authentication-form {
+  width: 100%; /* Make the form full width */
+  max-width: 400px; /* Limit the maximum width */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.authentication .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #ff8000;
+  color: white !important;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens (tablets) */
+  .authentication-form {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+  /* Adjust styles for medium-sized screens */
+  .authentication-form {
+    max-width: 80%; /* Adjust maximum width for medium-sized screens */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Adjust styles for smaller screens (laptops and tablets) */
+  .authentication-form {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens (tablets and mobiles) */
+  body {
+    padding-top: 60px; /* Adjust space for fixed header */
+  }
+
+  .authentication-form {
+    max-width: 100%; /* Full width for smaller screens */
+    margin-left: 0; /* Remove negative margin for card title */
+  }
+
+  .authentication .card-title {
+    margin-left: 0; /* Remove negative margin for card title */
+  }
+}
+
+/* Add any additional responsive styles as needed */

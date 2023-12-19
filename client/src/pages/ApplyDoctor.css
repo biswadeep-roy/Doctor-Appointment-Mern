@@ -1,0 +1,42 @@
+.page-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ant-form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.ant-btn {
+  background-color: #4b79a1;
+  border-color: #4b79a1;
+  color: #fff;
+}
+
+.ant-btn:hover {
+  background-color: #283e51;
+  border-color: #283e51;
+}
+
+.ant-btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.ant-btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}

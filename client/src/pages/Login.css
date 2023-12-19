@@ -1,0 +1,82 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.gradient-form {
+  background: linear-gradient(to right, #4b79a1, #283e51);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-custom-2 {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mt-1 {
+  margin-top: 1px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.p-3 {
+  padding: 3px;
+}
+
+.p-md-5 {
+  padding: 20px;
+}
+
+.px-3 {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.py-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.mx-md-4 {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.custom-login-button {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.custom-login-button:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}

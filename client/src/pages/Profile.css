@@ -1,0 +1,67 @@
+.page-title {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ant-form {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ant-form-item {
+  margin-bottom: 20px;
+}
+
+.ant-btn {
+  background-color: #4b79a1;
+  border-color: #4b79a1;
+  color: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.ant-btn:hover {
+  background-color: #283e51;
+  border-color: #283e51;
+}
+
+.ant-btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.ant-btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.profile-container {
+  padding: 30px;
+}
+
+.page-title {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+}
+
+.profile-info {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info p {
+  margin-bottom: 15px;
+}

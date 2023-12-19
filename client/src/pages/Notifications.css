@@ -1,0 +1,28 @@
+.page-title {
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+}
+
+.anchor {
+  color: #269ff0;
+  cursor: pointer;
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover {
+  background-color: #f5f5f5;
+}

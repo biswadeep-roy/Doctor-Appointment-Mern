@@ -1,0 +1,39 @@
+.container {
+  padding: 20px;
+  background: linear-gradient(to right, #4b79a1, #283e51);
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+.doctor-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.doctor-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.doctor-specialty {
+  font-size: 14px;
+  color: #666;
+}
+
+.sidebar {
+  background: linear-gradient(to right, #4b79a1, #283e51);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100%;
+}
