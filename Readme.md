@@ -1,6 +1,6 @@
 ### Doctor Appointment MERN
 
-Doctor Appointment MERN is a web application that allows users to schedule appointments with doctors. This platform aims to simplify the process of booking medical appointments and connecting patients with healthcare professionals.
+Doctor Appointment MERN is a web application that allows users to schedule appointments with doctors. This platform aims to simplify the process of booking medical appointments and connecting patients with healthcare professionals..
 
 ## Screenshot:
 ![doctor](https://github.com/biswadeep-roy/Doctor-Appointment-Mern/assets/74821633/3842980d-c9db-417a-a6d5-d31e36326819)
